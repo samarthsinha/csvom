@@ -74,8 +74,8 @@ public class CSVParser{
 				}
 				csvRecordList.add(model);
 			}
-			System.out.println("file to read : " + filePath + " ,delimiter = "
-					+ delimiter + csvModel.toString());
+			/*System.out.println("file to read : " + filePath + " ,delimiter = "
+					+ delimiter + csvModel.toString());*/
 		} else {
 			throw new Exception("Failed to Find CSVModel annotation");
 		}
